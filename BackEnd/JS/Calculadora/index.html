@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img_logo" src="img/logo.png" alt="Logo Developers Code" />
+      <div id="calculator" class="container_calc">
+        <div class="div_fila">
+          <input
+            id="display"
+            value="0"
+            class="input_text"
+            type="text"
+            disabled
+          />
+          <button type="button" id="eliminar-ultimo" class="btn delete">⌫</button>
+        </div>
+
+        <div class="div_fila">
+          <button type="button" name="data-clear" class="btn clear">C</button>
+          <button type="button" id="boton-potencia" class="btn function">^</button>
+          <button type="button" id="raiz-cuadrada" class="btn function">√</button>
+          <button type="button" id="boton-residuo" class="btn function">%</button>
+        </div>
+        <div class="div_fila">
+          <button type="button" name="data-number" class="btn number">7</button>
+          <button type="button" name="data-number" class="btn number">8</button>
+          <button type="button" name="data-number" class="btn number">9</button>
+          <button type="button" name="data-operador" class="btn operador">
+            /
+          </button>
+        </div>
+        <div class="div_fila">
+          <button type="button" name="data-number" class="btn number">4</button>
+          <button type="button" name="data-number" class="btn number">5</button>
+          <button type="button" name="data-number" class="btn number">6</button>
+          <button type="button" name="data-operador" class="btn operador">
+            *
+          </button>
+        </div>
+        <div class="div_fila">
+          <button type="button" name="data-number" class="btn number">1</button>
+          <button type="button" name="data-number" class="btn number">2</button>
+          <button type="button" name="data-number" class="btn number">3</button>
+          <button type="button" name="data-operador" class="btn operador">
+            -
+          </button>
+        </div>
+        <div class="div_fila">
+          <button type="button" name="data-number" class="btn number">0</button>
+          <button type="button" name="data-number" class="btn decimal">.</button>
+          <button type="button" name="data-equal" class="btn equal">=</button>
+          <button type="button" name="data-operador" class="btn operador">
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
